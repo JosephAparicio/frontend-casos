@@ -1,0 +1,15 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nxt-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C2FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9D4DFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D400FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- N -->
+  <path d="M10 30 V10 L30 30 V10" stroke="url(#nxt-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- X -->
+  <path d="M45 10 L65 30 M65 10 L45 30" stroke="url(#nxt-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- T -->
+  <path d="M80 10 H100 M90 10 V30" stroke="url(#nxt-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
