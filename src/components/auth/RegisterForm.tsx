@@ -70,7 +70,7 @@ export function RegisterForm({ setIsRegister }: RegisterFormProps) {
                     <Input
                         id="password"
                         type={showPassword ? 'text' : 'password'}
-                        placeholder="Crea una contraseña segura"
+                        placeholder="Crea una contraseña de al menos 6 caracteres"
                         error={errors.password?.message}
                         {...register('password')}
                         disabled={isLoading}
