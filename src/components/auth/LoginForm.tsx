@@ -79,7 +79,7 @@ export function LoginForm({ setIsRegister }: LoginFormProps) {
                     <button
                         type="button"
                         onClick={() => setShowPassword(!showPassword)}
-                        className="absolute right-3 top-1/2 -translate-y-1/2 text-nxt-text-muted hover:text-white transition-colors"
+                        className="absolute right-3 top-2 translate-y-1/4 text-nxt-text-muted hover:text-white transition-colors"
                         aria-label={showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña'}
                         tabIndex={-1}
                     >
